@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Candara, Calibri, Segoe, “Segoe UI”, Optima, Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(cornflowerblue, #ffffff);
+    height: 12em;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 2em;
+    margin: auto;
+    padding: 2%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: rebeccapurple;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.2em 0.2em 0.2em darkgray;
+
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.5em;
+    width: 50ch;
+}
+
+nav {
+    font-size: 16pt;
+}
+
+nav a{
+    color: #000000;
+    margin: 3%;
+}
+
+nav a:hover{
+    font-size: 18pt;
+    font-weight: 700;
+    background-color: rebeccapurple;
+    color: #ffffff;
+}
+
+h3 {
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.recommendations {
+margin: auto;
+width: 50%;
+padding: 2%;
+border: 2px solid palevioletred;
+border-radius: 1em;
+
+}
+
+.recommendations ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin: 10px;
+    
+}
+
+input, textarea {
+
+  font: 1em sans-serif;
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid palevioletred;
+}
+
+input:focus, textarea:focus {
+
+  border-color: cornflowerblue;
+  color: rebeccapurple;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.get-in-touch {
+    height: 20%;
+    width: 25%;
+    margin-top: 5%;
+    background: linear-gradient(#ffe8f2,#de98a3);
+    border-color: palevioletred;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.copyright p {
+    text-align: end;
+    padding-right: 1em;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: auto;
+    margin: 0;
+}

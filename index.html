@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/stylesheet.css" rel="stylesheet">
+    <title>Christi's Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Christi's Landing Page</h1>
+        <nav>
+            <a href="">Reading List</a>
+            <a href="#make-a-rec">Contact Me</a>
+            <a href="">Instagram</a>
+        </nav>
+    </header>
+    <figure>
+        <img src="./assets/images/book-stack.jpg" alt="A stack of reading books">
+        <figcaption>A stack of reading books</figcaption>
+    </figure>
+    <section>
+        <h2>About Me</h2>
+        <p>One of my favourite things to do is read.</p>
+        <p>But for some reason, my To Read pile continues to grow and I never seem to read anything that is in
+            the To Read pile!</p>
+        <p>Send me your book recommendations so I can continue to grow my list. In return, I'll send you a book
+            recommendation too!</p>
+        <div class="recommendations">
+            <h3> <a id="make-a-rec">Contact Me</a></h3>
+            <form action="/my-book-recs-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" placeholder="Your First Name">
+                    </li>
+                    <li>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" placeholder="Your Last Name">
+                    </li>
+                    <li>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="mail" placeholder="Your Email Address">
+                    </li>
+                    <li>
+                        <label for="recs">Book Rec</label>
+                        <textarea id="recs" id="msg" name="Book Recommendations"></textarea>
+                    </li>
+                </ul>
+
+                <button class="get-in-touch" name="Get in touch">Send</button>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright"> &copy; Christi S. 2022</p>
+    </footer>
+
+</body>
+
+</html>
