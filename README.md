@@ -1,8 +1,8 @@
-# Week 1 Mini Project - Landing Page
+# Landing Page
 
 ## Usage
 
-View deployed application on [Git Hub Pages](https://jazzberriess.github.io/wk-1-mini-proj-landing-page)
+View deployed application on [Git Hub Pages](https://jazzberriess.github.io/landing-page/)
 
 Built using HTML and CSS
 
