@@ -10,21 +10,10 @@ Built using HTML and CSS
 
 I built this simple landing page to practice integrating a contact form with a webpage as well as using semantic HTML elements.
 
-Building this simple landing page will help form the skills needed to make a more polished, professional portfolio which includes both a contact form, semantic HTML elements and more complex styling.
+## Demo
+![Final App Demo](./assets/images/landing-page.gif)
 
-## Resources:
+## License
+MIT Licence
 
-​
-The following websites were invaluable in my quest for knowledge and troubleshooting:
-
-[Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-
-[Stack Overflow](https://stackoverflow.com)
-
-[W3 Schools](https://www.w3schools.com)
-
-[Coding Bootcamp Professional README guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-[GitHub Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-Class notes and recordings from Week 1 and Week 2
+&copy; Christi Scappatura 2022
